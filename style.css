@@ -324,3 +324,35 @@ background-color: #599aacb2;
 }
 
 /* FOOTER FINISHED */
+
+/* RESPONSİVE START */
+
+@media screen and (max-widht:870px) {
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    
+    }
+
+    .about{
+        flex-direction: column;
+    }
+    .about .about-info h1{
+        font-size: 35px;
+
+    }
+
+    .about .about-info p{
+        font-size: 12px;
+    }
+
+    .about-picture-1{
+        margin-right: 30px;
+    }
+    .about-picture-2{
+        margin-right: 25px;
+    }
+}
+/* RESPONSIVE FINISH */
